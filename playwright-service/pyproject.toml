@@ -1,0 +1,16 @@
+ [project]
+ name = "hpms-playwright-service"
+ version = "1.0.0"
+ description = "HPMS Playwright Browser Automation Service"
+ requires-python = ">=3.10"
+ 
+ dependencies = [
+     "playwright>=1.42.0",
+ ]
+ 
+ [build-system]
+ requires = ["setuptools>=68.0"]
+ build-backend = "setuptools.backends._legacy:_Backend"
+ 
+ # DISCLAIMER: For personal/family use only.
+ # Commercial use and high-frequency crawling are strictly prohibited.

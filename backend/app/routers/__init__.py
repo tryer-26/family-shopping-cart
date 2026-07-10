@@ -1,0 +1,13 @@
+﻿from app.routers.auth import router as auth_router
+from app.routers.users import router as users_router
+from app.routers.families import router as families_router
+from app.routers.categories import router as categories_router
+from app.routers.products import router as products_router
+from app.routers.prices import router as prices_router
+from app.routers.coupons import router as coupons_router
+from app.routers.shopping_list import router as shopping_list_router
+from app.routers.search import router as search_router
+from app.routers.ocr import router as ocr_router
+from app.routers.statistics import router as statistics_router
+from app.routers.export import router as export_router
+from app.routers.system import router as system_router
