@@ -1,4 +1,4 @@
-﻿<template>
+<template>
   <div class="dashboard">
     <h2 style="margin-bottom: 20px;">📊 仪表盘</h2>
     <div v-if="!authStore.currentFamily" style="text-align:center;padding:60px 0;color:#909399;">

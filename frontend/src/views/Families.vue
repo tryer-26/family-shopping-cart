@@ -1,4 +1,4 @@
-﻿<template>
+<template>
   <div class="families-page">
     <div class="page-header"><h2>👨‍👩‍👧‍👦 家庭管理</h2><el-button type="primary" @click="showCreateDialog=true">创建家庭</el-button></div>
     <el-row :gutter="16">

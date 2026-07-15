@@ -1,4 +1,4 @@
-﻿# HPMS Models - All SQLAlchemy ORM models
+# HPMS Models - All SQLAlchemy ORM models
 from app.database import Base
 from app.models.user import User
 from app.models.family import Family, FamilyMember

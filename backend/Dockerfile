@@ -1,4 +1,4 @@
-﻿# ============================================
+# ============================================
 # HPMS Backend Dockerfile — uv 构建
 # ============================================
 # 构建前请先生成 uv.lock：
@@ -15,9 +15,9 @@ WORKDIR /app
 
 # 安装系统编译依赖
 RUN apt-get update && apt-get install -y --no-install-recommends \
-    gcc \
-    default-libmysqlclient-dev \
-    && rm -rf /var/lib/apt/lists/*
+   gcc \
+   default-libmysqlclient-dev \
+   && rm -rf /var/lib/apt/lists/*
 
 # 只复制依赖文件，充分利用 Docker 缓存层
 COPY pyproject.toml uv.lock* ./
@@ -32,8 +32,8 @@ WORKDIR /app
 
 # 安装运行时系统依赖（仅需 mysql client，不需要 gcc）
 RUN apt-get update && apt-get install -y --no-install-recommends \
-    default-libmysqlclient-dev \
-    && rm -rf /var/lib/apt/lists/*
+   default-libmysqlclient-dev \
+   && rm -rf /var/lib/apt/lists/*
 
 # 从构建阶段复制 .venv 虚拟环境
 COPY --from=builder /app/.venv /app/.venv

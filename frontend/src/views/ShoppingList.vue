@@ -1,4 +1,4 @@
-﻿<template>
+<template>
   <div class="shopping-list-page">
     <div class="page-header">
       <h2>🛒 采购清单</h2>

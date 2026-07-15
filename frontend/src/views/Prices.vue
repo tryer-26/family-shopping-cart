@@ -1,4 +1,4 @@
-﻿<template>
+<template>
   <div class="prices-page">
     <div class="page-header"><h2>💰 价格看板</h2><el-button type="primary" @click="refreshPrices" :loading="refreshing">刷新价格</el-button></div>
     <el-card>

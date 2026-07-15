@@ -1,4 +1,4 @@
-﻿<template>
+<template>
   <div class="ocr-page">
     <div class="page-header"><h2>📷 识图搜品</h2></div>
     <el-row :gutter="16">

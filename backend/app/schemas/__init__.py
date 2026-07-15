@@ -1,4 +1,4 @@
-﻿from app.schemas.user import (
+from app.schemas.user import (
     UserCreate, UserUpdate, UserResponse, UserLogin, TokenResponse, PasswordChange,
 )
 from app.schemas.family import (

@@ -1,4 +1,4 @@
-﻿<template>
+<template>
   <div class="statistics-page">
     <div class="page-header"><h2>📊 数据报表</h2></div>
     <el-row :gutter="16" style="margin-bottom:16px;">

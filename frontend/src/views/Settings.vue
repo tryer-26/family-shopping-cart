@@ -1,4 +1,4 @@
-﻿<template>
+<template>
   <div class="settings-page">
     <div class="page-header"><h2>⚙️ 系统设置</h2></div>
     <el-row :gutter="16">

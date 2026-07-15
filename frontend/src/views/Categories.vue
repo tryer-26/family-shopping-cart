@@ -1,4 +1,4 @@
-﻿<template>
+<template>
   <div class="categories-page">
     <div class="page-header">
       <h2>📂 分类管理</h2>

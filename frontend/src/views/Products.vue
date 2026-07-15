@@ -1,4 +1,4 @@
-﻿<template>
+<template>
   <div class="products-page">
     <div class="page-header">
       <h2>📦 商品库</h2>

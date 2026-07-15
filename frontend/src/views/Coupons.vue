@@ -1,4 +1,4 @@
-﻿<template>
+<template>
   <div class="coupons-page">
     <div class="page-header"><h2>🎫 优惠券管理</h2><el-button type="primary" @click="showDialog=true" :disabled="!authStore.currentFamily">新增优惠券</el-button></div>
     <el-row :gutter="16" style="margin-bottom:16px;">
